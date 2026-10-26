@@ -1,1 +1,16 @@
-example
+Color	HEX	RGB	Notas
+Botón estándar, fondo	#658eda	RGB(101, 142, 218)	Gradient: 2
+Botón estándar, hover	#0fff7f	RGB(15, 255, 127)	
+Botón estándar, press	#afdfff	RGB(175, 223, 255)	
+Botón default, fondo	#0fff7f	RGB(15, 255, 127)	Gradient: 2
+Botón default, hover	#0fff7f	RGB(15, 255, 127)	
+Botón default, press	#a8f1b1	RGB(168, 241, 177)	
+Botón cancelar, fondo	#bbd7f3	RGB(187, 215, 243)	Gradient: 2
+Botón cancelar, hover	#ebebff	RGB(235, 235, 255)	
+Botón cancelar, press	#f8a3ae	RGB(248, 163, 174)	
+Botón cerrar, fondo	#bbd7f3	RGB(187, 215, 243)	Gradient: 2
+Botón cerrar, hover	#fbb1bb	RGB(251, 177, 187)	
+Botón cerrar, press	#f8a3ae	RGB(248, 163, 174)	
+Botón bloqueado, fondo	#e4e4e4	RGB(228, 228, 228)	Gradient: 2
+Botón bloqueado, hover	#e4e4e4	RGB(228, 228, 228)	
+Botón bloqueado, press	#e4e4e4	RGB(228, 228, 228)	

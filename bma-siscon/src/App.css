@@ -1,3 +1,5 @@
+@import './styles/buttons.css';
+
 .app-shell {
   min-height: 100vh;
   display: flex;
@@ -97,11 +99,13 @@
   gap: 10px;
   color: #374151;
   font-size: 0.96rem;
+  cursor: pointer;
 }
 
 .checkbox-row input {
   width: 16px;
   height: 16px;
+  cursor: pointer;
 }
 
 .button-group {
@@ -110,8 +114,6 @@
   gap: 12px;
 }
 
-.primary-btn,
-.secondary-btn,
 .link-btn,
 .nav-item {
   border: none;
@@ -119,36 +121,6 @@
   font: inherit;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
-}
-
-.primary-btn,
-.secondary-btn {
-  padding: 12px 16px;
-  font-weight: 700;
-}
-
-.primary-btn {
-  background: linear-gradient(135deg, #2563eb, #1d4ed8);
-  color: #fff;
-  box-shadow: 0 10px 18px rgba(37, 99, 235, 0.22);
-}
-
-.secondary-btn {
-  background: #edf2ff;
-  color: #1f2a44;
-}
-.secondary-btn:hover {
-  background: #e2606b;
-  color: #fff;
-}
-
-.estandar-btn {
-  background: #658eda;
-  color: #1f2a44;
-}
-.estandar-btn:hover {
-  background: #658eda;
-  color: #1f2a44;
 }
 
 .link-btn {
@@ -159,8 +131,6 @@
   text-align: center;
 }
 
-.primary-btn:hover,
-.secondary-btn:hover,
 .link-btn:hover,
 .nav-item:hover {
   transform: translateY(-1px);

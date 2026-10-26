@@ -4,7 +4,13 @@ function LoginPage({ formData, onChange, onLogin, onExit, onForgotPassword }) {
       <div className="login-card">
         <header className="login-header">
           <div className="brand-block">
-            <div className="brand-mark"><img className="brand-mark" src=".\public\images\BMA-Logo-Iso.webp" alt="SystemIcon" /></div>
+            <div className="brand-mark">
+              <img
+                className="brand-mark"
+                src=".\public\images\BMA-Logo-Iso.webp"
+                alt="SystemIcon"
+              />
+            </div>
             <div>
               <h1>BMA SisCon</h1>
             </div>
@@ -51,10 +57,10 @@ function LoginPage({ formData, onChange, onLogin, onExit, onForgotPassword }) {
           </label>
 
           <div className="button-group">
-            <button type="submit" className="primary-btn">
+            <button type="submit" className="btn-default">
               Ingresar
             </button>
-            <button type="button" className="secondary-btn" onClick={onExit}>
+            <button type="button" className="btn-close" onClick={onExit}>
               Salir
             </button>
           </div>
