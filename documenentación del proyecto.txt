@@ -1,3 +1,4 @@
+Se preparó la fusión con la rama principal de desarrollo. 2026-10-26
 Te dejo un resumen claro de la estructura y la convención para ir creando cada archivo según el módulo del sistema.
 
 Resumen de la estructura del proyecto SisCon
