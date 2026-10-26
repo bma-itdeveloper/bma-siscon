@@ -33,12 +33,12 @@
 }
 
 .brand-mark {
-  width: 52px;
-  height: 52px;
+  width: auto;
+  height: 4rem;
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.18);
+  /* background: rgba(255, 255, 255, 0.18); */
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -135,6 +135,19 @@
 
 .secondary-btn {
   background: #edf2ff;
+  color: #1f2a44;
+}
+.secondary-btn:hover {
+  background: #e2606b;
+  color: #fff;
+}
+
+.estandar-btn {
+  background: #658eda;
+  color: #1f2a44;
+}
+.estandar-btn:hover {
+  background: #658eda;
   color: #1f2a44;
 }
 

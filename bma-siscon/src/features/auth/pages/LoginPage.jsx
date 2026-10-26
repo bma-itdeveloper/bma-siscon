@@ -4,10 +4,9 @@ function LoginPage({ formData, onChange, onLogin, onExit, onForgotPassword }) {
       <div className="login-card">
         <header className="login-header">
           <div className="brand-block">
-            <div className="brand-mark">S</div>
+            <div className="brand-mark"><img className="brand-mark" src=".\public\images\BMA-Logo-Iso.webp" alt="SystemIcon" /></div>
             <div>
-              <p className="eyebrow">Sistema</p>
-              <h1>SisCon</h1>
+              <h1>BMA SisCon</h1>
             </div>
           </div>
         </header>
