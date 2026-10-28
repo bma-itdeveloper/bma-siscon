@@ -41,7 +41,7 @@
 .blocked-btn {
   border: none;
   border-radius: 12px;
-  padding: 12px 16px;
+  padding: 5px;
   font: inherit;
   font-weight: 700;
   cursor: pointer;

@@ -7,7 +7,7 @@ function LoginPage({ formData, onChange, onLogin, onExit, onForgotPassword }) {
             <div className="brand-mark">
               <img
                 className="brand-mark"
-                src=".\public\images\BMA-Logo-Iso.webp"
+                src="./images/logBMAiso.webp"
                 alt="SystemIcon"
               />
             </div>

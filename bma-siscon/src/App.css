@@ -1,48 +1,11 @@
 @import './styles/buttons.css';
+@import './styles/pageLogin.css';
 
 .app-shell {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   background: linear-gradient(135deg, #eef4ff 0%, #dfeaff 100%);
-}
-
-.app-shell--login {
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-}
-
-.login-card {
-  width: min(100%, 420px);
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid #d9e3f5;
-  border-radius: 20px;
-  box-shadow: 0 18px 40px rgba(18, 46, 89, 0.12);
-  overflow: hidden;
-}
-
-.login-header {
-  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
-  padding: 28px 28px 22px;
-  color: #fff;
-}
-
-.brand-block {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.brand-mark {
-  width: auto;
-  height: 4rem;
-  display: grid;
-  place-items: center;
-  border-radius: 14px;
-  /* background: rgba(255, 255, 255, 0.18); */
-  font-size: 1.6rem;
-  font-weight: 700;
 }
 
 .eyebrow {
@@ -58,13 +21,6 @@
 .hero-panel h2,
 .module-card h3 {
   margin: 0;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  padding: 28px;
 }
 
 .field {
